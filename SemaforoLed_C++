@@ -1,0 +1,46 @@
+// C++ code
+//
+void setup()
+{
+  pinMode(9, OUTPUT);
+  pinMode(8, OUTPUT);
+  pinMode(7, OUTPUT);
+}
+
+void loop()
+{
+  //Red led
+  digitalWrite(9, HIGH);
+  delay(6000); // Time ON
+  digitalWrite(9, LOW);
+  
+  //Begining for yellow led
+  digitalWrite(8, HIGH);
+  delay(700); // Time Off 
+  //Yellow led
+  delay(3000); // Time ON
+  digitalWrite(8, LOW);
+  
+  //Begining for Green led
+  digitalWrite(7, HIGH);
+  delay(700); // Time Off
+  
+  //Green led
+  digitalWrite(7, HIGH);
+  delay(4000); // Time ON
+  digitalWrite(7, LOW);
+  
+  //Begining for Yellow led
+  digitalWrite(8, HIGH);
+  delay(700); // Time Off
+  //Yellow led
+  delay(3000); // Time ON
+  digitalWrite(8, LOW);
+  
+  //Red led
+  digitalWrite(9, HIGH);
+  delay(6000); // Time ON
+  digitalWrite(9, LOW);
+  delay(700); // Time Off
+}
+
